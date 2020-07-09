@@ -1,6 +1,6 @@
 # oe-test-task
 
-Bidder bot is simple implemented bot, that can participate in auctions. 
+Bidder bot is simple implemented bot, that can participate in auctions and possibly win. Yes bot wins in most of cases, but in loses anyway sometimes. 
 
 ## The main algorithm of winning in bidding is:
 
@@ -9,3 +9,8 @@ Bidder bot is simple implemented bot, that can participate in auctions.
 3. Collect data of previous winning(!!) bids
 4. Second and next bids are average value from all winning bids plus 40% of evenly split cash (value from 1.)
 5. That´s it!
+
+## What can be improved?
+
+1. Change algorithm to more effective one.
+2. Implement Strategy pattern. Strategies can change the behavior of bot, according to opponent bids
