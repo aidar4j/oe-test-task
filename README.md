@@ -2,7 +2,7 @@
 
 Bidder bot is simple implemented bot, that can participate in auctions and possibly win. Yes bot wins in most of cases, but in loses anyway sometimes. 
 
-## The main algorithm of winning in bidding is:
+## Algorithm used:
 
 1. Evenly split cash among the sets. For example if cash is 100 and quantity is 10, then sets are 5 and evenly split cash is 20 for each set.
 2. First bid is random value from evenly split cash (value from 1.)
