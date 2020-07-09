@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BidderImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-07T13:03:55" hostname="users-MacBook-Pro.local" time="0.002">
+<testsuite name="BidderImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-09T21:49:53" hostname="users-MacBook-Pro.local" time="0.007">
   <properties/>
-  <testcase name="placeBid_withInitializedQuantity2_shouldReturnAllCash" classname="BidderImplTest" time="0.002"/>
+  <testcase name="placeBid_with2InitializedProperties_shouldReturnFirstBid" classname="BidderImplTest" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -36,17 +36,9 @@ public class BidderImplTest {
     @Test
     public void placeBid_withInitializedProperties_shouldReturnFirstBid() {
         bidder.init(10, 100);
-        int numberOfSets = 10 / 2;
+        int amountOfSets = 10 / 2;
         int ownBid = bidder.placeBid();
-        assertTrue(0 <= ownBid && ownBid <= 100 / numberOfSets);
-    }
-
-    @Test
-    public void placeBid_with2InitializedProperties_shouldReturnFirstBid() {
-        bidder.init(10, 100);
-        int numberOfSets = 10 / 2;
-        int ownBid = bidder.placeBid();
-        assertTrue(0 <= ownBid && ownBid <= 100 / numberOfSets);
+        assertTrue(0 <= ownBid && ownBid <= 100 / amountOfSets);
     }
 
 }
